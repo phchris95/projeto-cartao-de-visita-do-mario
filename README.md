@@ -19,6 +19,14 @@
   <li> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo-javascript"/> Funcionalidade interativa do formulário de orçamento.</li>
 </ul>
 
+<h2 align="center"> Funcionalidades </h2>
+<ul>
+  <li> Apresentação dos serviços prestados. </li>
+  <li> Formulário para solicitação de orçamento. </li>
+  <li> Integração com WhatsApp para contato direto. </li>
+  <li> Layout responsivo para melhor usabilidade em dispositivos móveis. </li>
+</ul>
+
 <h2 align="center">Descrição do Projeto</h2>
 
 <p>O projeto Encanadores Mario & Luigi é uma página web criada para facilitar o contato entre clientes e prestadores de serviço especializados em desentupimento e encanamento.
