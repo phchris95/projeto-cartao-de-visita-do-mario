@@ -3,7 +3,7 @@ const mascara = document.querySelector(".mascara-formulario")
 
 function cliqueinobotao () {
 
-    form.style.left = "40%"
+    form.style.left = "50%"
     form.style.transform = "translatex{-50%}"
     mascara.style.visibility = "visible"
 
