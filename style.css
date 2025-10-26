@@ -11,6 +11,7 @@
 .logo-mario {
 
     height: 200px;
+    margin-top: 120px;
 
 }
 
@@ -78,6 +79,7 @@ body {
 .caixa-principal {
 
     width: 40%;
+    padding: 5px;
 
 }
 
@@ -208,5 +210,58 @@ textarea{
     width: 100vw;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: visibility 0.2s ease-in-out;
+
+}
+
+/* media query*/
+
+@media(max-width: 1000px){
+
+    p {
+
+        display: none;
+
+    }
+
+    .caixa-mae {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .caixa-principal{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagem-mario-luigi{
+
+        width: 300px;
+        height: auto;
+
+    }
+
+    .header img{
+
+        display: none;
+
+    }
+
+    .header a {
+
+        font-size: 20px;
+
+    }
+
+    .logo-mario{
+
+        margin-top: 0;
+
+    }
 
 }

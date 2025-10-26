@@ -4,14 +4,14 @@ const mascara = document.querySelector(".mascara-formulario")
 function cliqueinobotao () {
 
     form.style.left = "50%"
-    form.style.transform = "translatex{-50%}"
+    form.style.transform = "translateX(-50%)"
     mascara.style.visibility = "visible"
 
 }
 
 function sumirform () {
     
-    form.style.left = "-17.6%"
+    form.style.left = "-149.5px"
     mascara.style.visibility = "hidden"
 
 }
