@@ -5,8 +5,9 @@
 <h2 align="center">Imagens de Como Fica o Layout</h2>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/phchris95/projeto-cartao-de-visita-do-mario/blob/master/img/pc-mario-2.png?raw=true" alt="Tela do computador" width="400px" align="center"/>
-  <img src="https://github.com/phchris95/projeto-cartao-de-visita-do-mario/blob/master/img/pc-mario-1.png?raw=true" alt="Tela do computador" width="400px" align="center"/>
+  <img src="./img/m&l-tela-inicial.PNG" alt="Tela do computador, pagina principal" width="400px" align="center"/>
+  <img src="./img/m&l-formulario.PNG" alt="Tela do computador, pagina de formulario" width="400px" align="center"/>
+  <img src="./img/m&l-nossos-servicos.PNG" alt="Tela do computador, pagina sobre os nossos serviços" width="400px" align="center"/>
 </div>
 
 <h2 align="center">Tecnologias Utilizadas</h2>

@@ -14,7 +14,7 @@ function cliqueinobotao () {
 
 function sumirForm () {
     
-    form.style.left = "-150px"
+    form.style.left = "-107.5px"
     mascara.style.visibility = "hidden"
 
 }
