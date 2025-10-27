@@ -107,6 +107,17 @@ video {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
+    transition: visibility 1s ease-in-out;
+}
+.mascara-menu{
+
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
 }
 
 .link-whatsapp img {
@@ -126,14 +137,25 @@ video {
 
 .header {
 
-    margin: 30px;
+    margin: 0;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 30px;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 20px 50px;
+    z-index: 10;
 
 }
 
+.menu-links {
+    display: flex;
+    gap: 30px;
+}
 
 .header img {
 
@@ -141,21 +163,27 @@ video {
 
 }
 
-.header a {
-
+.menu-links a {
     color: white;
-    font-size: 25px;
-    cursor: pointer;
+    font-size: 22px;
     text-decoration: none;
-    
 }
 
-.header a:hover {
-
+.menu-links a:hover {
     color: #c51111;
-    font-size: 27px;
     transition: 0.2s ease-in-out;
+    font-size: 27px;
+}
 
+/* Botão hambúrguer */
+.menu-toggle {
+    display: none;
+    font-size: 35px;
+    width: 50px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .formulario-fale-conosco{
@@ -252,9 +280,26 @@ textarea{
 
     }
 
-    .header a {
+    .menu-links{
 
-        font-size: 20px;
+        display: none; /* esconde os links */
+        flex-direction: column;
+        background-color: rgba(46, 49, 53, 0.4);
+        position: absolute; /* permite que o menu flutue sobre o conteúdo (não empurra a página para baixo). Isso é o comportamento comum para menus suspensos em mobile. */
+        top: 100%;
+        left: 0;
+        width: 250px;
+        padding: 20px;
+        border-radius: 8px;
+
+    }
+
+    .menu-links.show {
+        display: flex; /* mostra ao clicar */
+    }
+
+    .menu-toggle {
+        display: block; /* mostra o botão hambúrguer */
 
     }
 
